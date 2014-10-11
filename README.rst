@@ -19,8 +19,8 @@ ARK.Tekt
 ARK.Tekture
    A Theming Engine.
 
-Types
------
+Taxonomy
+-------------
 ARK organizes content into a simple predefined hierarchical set of types called ARK.Types. Like a tree, each type branches down to the lower types. There are five ARK.Types:
 
 Property
@@ -40,13 +40,26 @@ Piece
 
 I've found that this simple taxonomy of terms provides a powerful way to reason about a website. Understanding that each type serves a particular purpose and is itself an anatomic part of the whole picture creates a natural bridge of communication between the technical implementation and the end user experiences.
 
-Illustration
-^^^^^^^^^^^^
+**Illustration**
+
 The following diagram illustrates the ARK.Types hierarchy:
 
 .. image:: ARK.png
    :scale: 75 %
    :alt: ARK.Types
    :align: right
+
+Architects
+----------
+ARK defines three types of users. Each user type (called an Architect) directly relates to each of the three application architecture tiers.
+
+Developer
+   Developers work with ``ARK.tektonik`` to set up and provide development support for the ARK system.
+
+Director
+   Directors use ``ARK.tekt`` (or ARK) to manage all the content in the system.
+
+Designer
+   A designer uses ``ARK.tekture`` to create themes.
 
 
