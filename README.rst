@@ -13,9 +13,9 @@ Architecture
 ARK is comprised of three "micro" applications. A clear separation of concerns between the content being stored, the interactive management of that content and it's presentation.
 
 ARK.Tektonik
-   A RESTful api service to the tektonik database. It is responsible for providing all create, read, update and delete methods for each of ARK's resource types aptly named ARK.Types.
+   A RESTful api service to the tektonik database. It is responsible for providing all create, read, update and delete methods for each of ARK's resource types (aptly named ARK.Types).
 ARK.Tekt
-   A WYSIWYG site building tool which implements the ARK.Tektonik api. This is the tool people will view as their Content Management System.
+   A WYSIWYG site building tool. It implements the ARK.Tektonik api and is the application users interact with to manage their content.
 ARK.Tekture
    A Theming Engine.
 
@@ -24,20 +24,21 @@ Types
 ARK organizes content into a simple predefined hierarchical set of types called ARK.Types. Like a tree, each type branches down to the lower types. There are five ARK.Types:
 
 Property
-   A ``Property`` is a domain name. Example: *www.website.com* or *my.website.com*
+   A ``Property`` is a domain name. Example: *www.website.com* or *my.website.com*. 
 
 Path
-   A ``Path`` is an "endpoint" sometimes called a slug. Example: */home* or */contact*. Paths point to pages. Paths can point to a single ``Page`` perpetually or schedule out a set pages based on date and time. This allows content managers to automate A/B testing, content postings, workflow, etc.
+   A ``Path`` is an "endpoint" sometimes called a slug. Example: */home* or */contact*. Paths point to pages. Paths can point to a single ``Page`` or schedule out a set of pages based on date and time. This allows content managers to automate A/B testing, content postings, workflow, etc. Think of it as a programmable router.
 
 Page
-   A ``Page`` is a configuration of ``Parts``. It should be viewed as a simple web page.
+   A ``Page`` is a configuration, orientation and layout of ``Parts``. Think of it as a web page. 
 
 Part
-  A ``Part`` is a configuration of ``Pieces`` and should be viewed as a part of a web page.There are built in ``Part`` types as well as a simple api for implementing custom part types. They can be as simple as a text block or more complex as you want to make them.
+  A ``Part`` is a configuration, orientation and layout of ``Pieces``. Think of it as a part of a web page.
 
 Piece
-  A ``Piece`` is the actual content in the system. This includes all the text, images, documents, etc. 
+  A ``Piece`` is the actual content in the system. This includes all the text, images, documents, etc. Think of it as a piece of a web page.
 
+I've found that this simple taxonomy of terms provides a powerful way to reason about a website. Understanding that each type serves a particular purpose and is itself an anatomic part of the whole picture creates a natural bridge of communication between the technical implementation and the end user experiences.
 
 Illustration
 ^^^^^^^^^^^^
