@@ -2,6 +2,10 @@
 ARK
 ==================================================================
 
+    The details are not the details. They make the design.
+    - Charles Eames
+
+
 ARK is a pet project that I've been looking to build for over a decade. It is my attempt at building the content management system I always wanted and/or needed. A CMS that by nature is easy to understand and meets the technical, functional and design needs for all parties involved. 
 
 .. _TOP:
