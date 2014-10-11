@@ -12,9 +12,9 @@ ARK is a pet project that I've been looking to build for over a decade. It is my
 .. contents:: Table of Contents
    :depth: 2
 
-Architecture
+Tiers
 ------------
-ARK is comprised of three "micro" applications. A clear separation of concerns between the content being stored, the interactive management of that content and it's presentation.
+ARK is comprised of three "micro" applications tiers. A clear separation of concerns between the content being stored, the interactive management of that content and it's presentation.
 
 ARK.Tektonik
    A RESTful api service to the tektonik database. It is responsible for providing all create, read, update and delete methods for each of ARK's resource types (aptly named ARK.Types).
@@ -23,7 +23,7 @@ ARK.Tekt
 ARK.Tekture
    A Theming Engine.
 
-Taxonomy
+Types
 -------------
 ARK organizes content into a simple predefined hierarchical set of types called ARK.Types. Like a tree, each type branches down to the lower types. There are five ARK.Types:
 
@@ -53,9 +53,9 @@ The following diagram illustrates the ARK.Types hierarchy:
    :alt: ARK.Types
    :align: right
 
-Architects
+Titles
 ----------
-ARK defines three types of users. Each user type (called an Architect) directly relates to each of the three application architecture tiers.
+ARK defines three types of users. Each user type directly relates to each of the three application architecture tiers.
 
 Developer
    Developers work with ``ARK.tektonik`` to set up and provide development support for the ARK system.
