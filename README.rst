@@ -27,13 +27,13 @@ ARK.Tekture
 
 Types
 *****
-ARK organizes content into a simple predefined hierarchical set of types.  There are five different types:
+ARK organizes content into a hierarchical set of types.  There are five different types:
 
 Property
-   A ``Property`` is a domain name. Example: *website.com*. 
+   A domain name. Example: *website.com*. 
 
 Path
-   A ``Path`` is the part of a web address after the domain name. Example: */contact*. A ``Property`` and a ``Path`` work together to form the structure of your website's links. Example: *website.com/contact*. 
+   A "slug" or "endpoint". Example: */contact*. Together with a ``Property`` they form a web address. Example: *website.com/contact*. 
 
 Page
    A ``Page`` is a configuration, orientation and layout of ``Parts``. 
@@ -42,22 +42,23 @@ Part
   A ``Part`` is a configuration, orientation and layout of ``Pieces``. 
 
 Piece
-  A ``Piece`` is a piece of content. It can be text, images, documents, etc. 
+  A ``Piece`` is a piece of content such as text, images, documents, etc. 
 
 
 How It Works
 ------------
 Like the keys on a piano, ARK's types have been designed to enable developers and designers to create compositions that are artistically and technically harmonious. The beauty is that you don't need another piano just to create a new composition.
 
-At the top of the ARK ``Type`` hierarchy you have ``Properties``. A ``Property`` is nothing more than a domain name (including subdomains). You can create as many as you want. Maybe you have your main domain *website.com* as well as the site *my.othersite.com*. 
+At the top of the ``Type`` hierarchy you have *Properties*. A ``Property`` is the name of the website you'd like to host. You can host multiple properties. For example you can host *website.com* and *my.othersite.com*. 
 
-Once you've created a domain, you can start creating ``Paths``. ``Paths`` provide a routing mechanism unique to ARK. Each ``Path`` is configured to point to a ``Page``. Although ``Paths`` can only serve a single ``Page`` at any one time, they can be configured to point to a set of pages based on effective dates and times, round robin or even at random. This allows for scheduling out updates, running A/B tests and maintaining a well organized site map.
+Once you've defined your properties, you can start creating ``Paths``. ``Paths`` provide a routing mechanism unique to ARK. Each ``Path`` is configured to point to a ``Page``. Although ``Paths`` can only serve a single ``Page`` at any one time, they can be configured to point to a set of pages based on effective dates and times, round robin or even at random. This allows for scheduling out updates, running A/B tests and maintaining a well organized site map.
 
 ``Pages`` in ARK serve as a configuration of ``Parts``. Different "versions" of a ``Page`` is nothing more than a different configuration of ``Parts``. Pages can be copied, organized, even shared across ``Properties``. They are your compositions. 
 
-``Parts`` then become central to ARK's content management solution. Menus, galleries, maps, sliders, forms, etc are all implemented as prebuilt ``Parts``. Sometimes called "widgets" ``Parts`` have their own unique logic and requirements. Based on the ``Part``, different ``Pieces`` are then used to configure a particular ``Part``. 
+``Parts`` then become central to ARK's content management solution. Menus, galleries, maps, sliders, forms, etc are all implemented as prebuilt ``Parts``. Sometimes called "widgets" ``Parts`` have their own unique logic, assets, configurations and requirements. Some ``Parts`` however require assets that are complex, such as an images and video, or even another ``Part``. These reusable assets are called ``Pieces``. 
 
-Having ``Pages``, ``Parts`` and ``Pieces`` separated (aka normalized), you can create a library of components that can be mixed and matched across all your websites.
+Now that you understand the basics of our our different types work together here's another way to look out their relationships. ``Properties`` are just website names that have different ``Paths`` that point to ``Pages`` which are just stored configurations of ``Parts`` which are comprised of various ``Pieces``. 
+
 
 **Illustration**
 
