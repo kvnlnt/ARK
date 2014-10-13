@@ -1,0 +1,3 @@
+[submodule "tektonik"]
+	path = tektonik
+	url = https://github.com/kvnlnt/tektonik.git
