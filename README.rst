@@ -87,7 +87,7 @@ Sally Scribe
 Project Peimp
    Redesign the corporate site, increase conversions and start marketing the unknown power behind 2L2Q's services.
 
-Mark, Fiona and Sally have just come back from a retreat with a kick butt six month plan to send numbers through the roof. They round up the development staff and try to get a plan going. Immediately they are hit with reality. Their six month plan is more like a two year plan. However if they are willing to make a number of concessions, parts of it can be accomplished. Yet, nobody's really happy. The Marketing staff feel as if their plan lacks any of the purity they had envisioned and the Development staff feels like accommodating these demands is a full scale abandoment of fixing problems that could potentially take down the entire company. 
+Mark, Fiona and Sally have just come back from a retreat with a kick butt six month plan to send numbers through the roof. They are even wondering if the project could be completed in 4-6 weeks. They round up the development staff and try to get a plan going. Immediately they are hit with reality. Development states that their six month plan is more like a two year plan. However if they are willing to make a number of concessions, parts of it can be accomplished. Yet, nobody's really happy. The Marketing staff feel as if their plan lacks any of the purity they had envisioned and the Development staff feels like accommodating these demands is a full scale abandoment of fixing problems that could potentially take down the entire company. 
 
 
 
