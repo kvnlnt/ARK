@@ -11,6 +11,11 @@ ARK is a Content Management System that has been designed with a bias towards sy
 .. contents:: Table of Contents
    :depth: 2
 
+.. _Tektonik: http://github.com/kvnlnt/tektonik
+.. _Tekt: http://github.com/kvnlnt/tekt
+.. _Tekture: http://github.com/kvnlnt/tekture
+
+
 Terminology
 -----------
 
@@ -18,11 +23,11 @@ Architecture
 ************
 ARK is broken up into three applications.
 
-ARK.Tektonik
+ARK Tektonik_
    A RESTful api service providing all the create, read, update and delete methods for each of the resources used in your ARK websites.
-ARK.Tekt
+ARK Tekt_
    A WYSIWYG website building tool used to create ARK websites.
-ARK.Tekture
+ARK Tekture_
    A hosting platform for your ARK sites. 
 
 Types
