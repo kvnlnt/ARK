@@ -11,9 +11,9 @@ ARK is a Content Management System that has been designed with a bias towards sy
 .. contents:: Table of Contents
    :depth: 2
 
-.. _Tektonik: http://github.com/kvnlnt/tektonik
-.. _Tekt: http://github.com/kvnlnt/tekt
-.. _Tekture: http://github.com/kvnlnt/tekture
+.. _Tektonik: http://github.com/kvnlnt/ARK.tektonik
+.. _Tekt: http://github.com/kvnlnt/ARK.tekt
+.. _Tekture: http://github.com/kvnlnt/ARK.tekture
 
 
 Terminology
