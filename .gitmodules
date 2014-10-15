@@ -1,6 +1,6 @@
 [submodule "tektonik"]
 	path = tektonik
-	url = https://github.com/kvnlnt/tektonik.git
+	url = https://github.com/kvnlnt/ARK.tektonik.git
 [submodule "tekt"]
 	path = tekt
 	url = https://github.com/kvnlnt/ARK.tekt.git
