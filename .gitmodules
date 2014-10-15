@@ -1,0 +1,9 @@
+[submodule "tektonik"]
+	path = tektonik
+	url = https://github.com/kvnlnt/tektonik.git
+[submodule "tekt"]
+	path = tekt
+	url = https://github.com/kvnlnt/tekt.git
+[submodule "tekture"]
+	path = tekture
+	url = https://github.com/kvnlnt/tekture.git
