@@ -1,9 +1,0 @@
-[submodule "tektonik"]
-	path = tektonik
-	url = https://github.com/kvnlnt/ARK.tektonik.git
-[submodule "tekt"]
-	path = tekt
-	url = https://github.com/kvnlnt/ARK.tekt.git
-[submodule "tekture"]
-	path = tekture
-	url = https://github.com/kvnlnt/ARK.tekture.git
